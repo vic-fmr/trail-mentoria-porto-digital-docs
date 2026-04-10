@@ -64,6 +64,36 @@ Use as pastas abaixo como apoio de estudo e execução das entregas:
 - Inclua referências de `referencias/links-uteis.md` quando fizer sentido.
 - Escreva de forma objetiva: problema, abordagem, resultado e próximos passos.
 
+## 8) Fluxo oficial de envio (Fork + Pull Request)
+
+Para este repositório, o fluxo padrão dos alunos é via **fork**. Isso evita erro de permissão (`403`) no push.
+
+### Passo a passo
+
+1. Faça um **fork** deste repositório para sua conta do GitHub.
+2. No seu fork, crie uma branch (ex.: `docs/minha-entrega-encontro-03`).
+3. Edite **somente** arquivos dentro da sua pasta em `/entregas/`.
+4. Faça commit e push para o **seu fork**.
+5. Abra um **Pull Request** do seu fork para a `main` do repositório principal.
+6. Aguarde revisão/validação do mentor.
+
+### Regra de ouro
+
+- Se o push estiver apontando para o repositório principal, você pode receber `403`.
+- O push do aluno deve ir para o **fork** (repositório da conta do aluno).
+
+### Nome sugerido de branch
+
+- `docs/entrega-encontro-03-seu-nome`
+- `docs/entrega-mvp-seu-nome`
+
+### Antes de abrir o PR
+
+- [ ] Alterei apenas minha pasta em `/entregas/`
+- [ ] Não alterei arquivos de `encontros/`, `regras/`, `referencias/` etc.
+- [ ] Título e descrição do PR estão claros
+- [ ] O PR mostra somente os arquivos esperados
+
 ---
 
 Se tiver dúvida sobre onde colocar um arquivo, pergunte antes de subir. É melhor alinhar cedo do que corrigir estrutura depois. 🚀
